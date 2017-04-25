@@ -1,4 +1,7 @@
-# test coverage for  [check-types (v7.1.5)](https://github.com/philbooth/check-types.js)  [![npm package](https://img.shields.io/npm/v/npmtest-check-types.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-check-types) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-check-types.svg)](https://travis-ci.org/npmtest/node-npmtest-check-types)
+# npmtest-check-types
+
+#### basic test coverage for  [check-types (v7.1.5)](https://github.com/philbooth/check-types.js)  [![npm package](https://img.shields.io/npm/v/npmtest-check-types.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-check-types) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-check-types.svg)](https://travis-ci.org/npmtest/node-npmtest-check-types)
+
 #### A little library for asserting types and values.
 
 [![NPM](https://nodei.co/npm/check-types.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/check-types)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-check-types/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-check-types/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-check-types/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-check-types/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-check-types/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-check-types/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-check-types/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-check-types/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-check-types/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-check-types/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-check-types/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-check-types/build/coverage.html/index.html)
 
@@ -156,7 +159,8 @@
         "minify": "uglifyjs ./src/check-types.js --compress --mangle --output ./src/check-types.min.js",
         "test": "mocha --ui tdd --reporter spec --colors ./test/check-types.js"
     },
-    "version": "7.1.5"
+    "version": "7.1.5",
+    "bin": {}
 }
 ```
 
